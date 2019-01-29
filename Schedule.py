@@ -33,6 +33,7 @@ def routes(numArrivals, numBuses, busCapacity, startPoint):
     return routsResult
 
 def schedule(numBuses, busCapacity, arrivals):
+    
     # Corner case when amount of people are more than capacity of all buses
     if len(arrivals) > numBuses * busCapacity:
         return -1
