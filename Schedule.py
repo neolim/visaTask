@@ -7,7 +7,7 @@
 #   arrivals - sorted array of time when people are coming to point B
 #       arrivals.value - number of seconds starting from 00:00
 #       0 <= arrivals.value <= 86400
-
+# Return schedule of buses so total waiting time is minimized
 
 def routes(numArrivals, numBuses, busCapacity, startPoint):
 
