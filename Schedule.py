@@ -10,6 +10,7 @@
 # Return schedule of buses so total waiting time is minimized
 # Output:
 #   tuple(total waiting time, bus stops array in seconds from 00:00)
+#   -1 if there is no way to build schedule to transfer all people
 
 def routes(numArrivals, numBuses, busCapacity, startPoint):
 
