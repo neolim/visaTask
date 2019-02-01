@@ -8,6 +8,8 @@
 #       arrivals.value - number of seconds starting from 00:00
 #       0 <= arrivals.value <= 86400
 # Return schedule of buses so total waiting time is minimized
+# Output:
+#   tuple(total waiting time, bus stops array in seconds from 00:00)
 
 def routes(numArrivals, numBuses, busCapacity, startPoint):
 
